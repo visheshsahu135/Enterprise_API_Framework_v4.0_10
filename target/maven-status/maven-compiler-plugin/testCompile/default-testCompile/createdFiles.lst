@@ -1,0 +1,7 @@
+base\BaseTest.class
+tests\ApiChainingTest.class
+tests\SchemaValidationTest.class
+tests\MultipartTest.class
+utils\OAuthTokenManager.class
+utils\DatabaseValidator.class
+utils\TokenManager.class

@@ -1,0 +1,6 @@
+Commercial License
+
+Copyright (c) 2026 TestEasy Academy
+
+This framework is licensed for commercial use.
+Redistribution, resale, or modification without written consent is prohibited.
