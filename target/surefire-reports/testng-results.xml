@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-01T08:00:54 IST" name="Surefire suite" finished-at="2026-01-01T08:01:00 IST" duration-ms="6144">
+  <suite started-at="2026-01-01T09:59:49 IST" name="Surefire suite" finished-at="2026-01-01T09:59:56 IST" duration-ms="7529">
     <groups>
     </groups>
-    <test started-at="2026-01-01T08:00:54 IST" name="Surefire test" finished-at="2026-01-01T08:01:00 IST" duration-ms="6144">
+    <test started-at="2026-01-01T09:59:49 IST" name="Surefire test" finished-at="2026-01-01T09:59:56 IST" duration-ms="7529">
       <class name="tests.ApiChainingTest">
-        <test-method signature="chainingWithPojo()[pri:0, instance:tests.ApiChainingTest@27ff5d15]" started-at="2026-01-01T08:00:54 IST" name="chainingWithPojo" finished-at="2026-01-01T08:01:00 IST" duration-ms="6088" status="PASS">
+        <test-method signature="chainingWithPojo()[pri:0, instance:tests.ApiChainingTest@5276e6b0]" started-at="2026-01-01T09:59:49 IST" name="chainingWithPojo" finished-at="2026-01-01T09:59:56 IST" duration-ms="7473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chainingWithPojo -->
       </class> <!-- tests.ApiChainingTest -->
       <class name="tests.MultipartTest">
-        <test-method signature="multipartUpload()[pri:0, instance:tests.MultipartTest@4e096385]" started-at="2026-01-01T08:00:54 IST" name="multipartUpload" finished-at="2026-01-01T08:00:57 IST" duration-ms="3733" status="PASS">
+        <test-method signature="multipartUpload()[pri:0, instance:tests.MultipartTest@71b1176b]" started-at="2026-01-01T09:59:49 IST" name="multipartUpload" finished-at="2026-01-01T09:59:55 IST" duration-ms="6581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipartUpload -->
       </class> <!-- tests.MultipartTest -->
       <class name="base.BaseTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:base.BaseTest@2bfc268b]" started-at="2026-01-01T08:00:53 IST" name="setup" finished-at="2026-01-01T08:00:54 IST" duration-ms="720" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:base.BaseTest@56a6d5a6]" started-at="2026-01-01T09:59:48 IST" name="setup" finished-at="2026-01-01T09:59:49 IST" duration-ms="707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
       </class> <!-- base.BaseTest -->
       <class name="tests.SchemaValidationTest">
-        <test-method signature="schemaTest()[pri:0, instance:tests.SchemaValidationTest@649bec2e]" started-at="2026-01-01T08:00:54 IST" name="schemaTest" finished-at="2026-01-01T08:00:58 IST" duration-ms="4166" status="PASS">
+        <test-method signature="schemaTest()[pri:0, instance:tests.SchemaValidationTest@6193932a]" started-at="2026-01-01T09:59:49 IST" name="schemaTest" finished-at="2026-01-01T09:59:54 IST" duration-ms="5653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- schemaTest -->
