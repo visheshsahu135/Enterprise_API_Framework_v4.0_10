@@ -1,34 +1,32 @@
 pipeline {
     agent any
-
-    tools {
-        maven 'Maven_3'
-        jdk 'JDK17'
-    }
-
     stages {
-        stage('Checkout') {
+        stage('Build') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-org/ultimate-api-framework.git'
+                echo "Building the Code.........."
+                bat "mvn clean"
             }
         }
 
-        stage('Build & Test') {
+        stage('Test') {
             steps {
-                sh 'mvn clean test -Denv=QA'
+                echo "Testing the Code.........."
+                bat "mvn test"
             }
         }
 
-        stage('Generate Allure Report') {
+        stage('Compile') {
             steps {
-                sh 'mvn allure:report'
+                echo "Compiling the Project.........."
+                bat "mvn compile"
             }
         }
-    }
 
-    post {
-        always {
-            allure includeProperties: false, jdk: '', results: [[path: 'target/allure-results']]
+        stage('Deploy') {
+            steps {
+                echo "Deploying the Project.........."
+                bat "mvn verify"
+            }
         }
     }
 }
